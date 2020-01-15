@@ -1,0 +1,413 @@
+.box-hien-thi label {
+    font-weight: 400
+}
+
+.error-not-blank {
+    float: right;
+    color: red;
+    font-style: italic;
+    display: none
+}
+
+.box-hien-thi .form-group {
+    margin-bottom: 0
+}
+
+.box-hien-thi .help-block {
+    margin: 0
+}
+
+.img-upload {
+    width: 100%
+}
+
+.img-upload img {
+    border: 1px solid #f1f1f1
+}
+
+.img-view {
+    height: 60px;
+    width: 250px
+}
+
+.star {
+    color: red
+}
+
+.block-upload-item {
+    height: 226px;
+    overflow: hidden;
+    position: relative;
+    width: 170px;
+    float: left;
+    margin-right: 5px;
+    border: 2px dashed #cbd9ca;
+    background-position-y: 60px;
+    background: url(data:image/png;base64,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) no-repeat center 30px;
+    cursor: pointer
+}
+
+.block-upload-item p {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.file-thumbnail-footer .btn {
+    width: 32px
+}
+
+.spanButtonPlaceholder input[type=file] {
+    width: 164px !important;
+    height: 170px !important
+}
+
+.post-product .droptext {
+    color: #666
+}
+
+.droptext {
+    color: #999;
+    clear: both;
+    padding: 10px 0
+}
+
+.bdsGuestUpload360 .imgContainer {
+    height: 235px !important
+}
+
+.imgContainer {
+    height: 170px;
+    overflow: hidden;
+    width: 160px;
+    float: left;
+    margin: 0 5px 5px 0;
+    position: relative
+}
+
+.imgContainer .img-thumb {
+    display: block;
+    border: none;
+    float: left;
+    position: relative;
+    background: #000 center no-repeat;
+    width: 164px;
+    height: 170px;
+    background-size: 164px 170px
+}
+
+.img-thumb .upload-image-tools {
+    height: 30px;
+    min-width: 44px;
+    margin: 5px;
+    background: #dae4ed;
+    border-radius: 3px;
+    padding: 4px
+}
+
+.upload-image-tools span {
+    display: block;
+    float: left;
+    margin: 0 5px;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.upload-avatar {
+    margin-left: 8px;
+    line-height: 20px
+}
+
+a {
+    color: #000
+}
+
+.krajee-default.file-preview-frame {
+    position: relative;
+    display: table;
+    margin: 8px;
+    height: 160px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px 0 #a2958a;
+    padding: 6px;
+    float: left;
+    text-align: center;
+    vertical-align: middle
+}
+
+.krajee-default .file-thumbnail-footer {
+    position: relative
+}
+
+.krajee-default .file-footer-caption {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 11px;
+    color: #777;
+    margin: 5px auto
+}
+
+.krajee-default .file-upload-indicator {
+    font-size: 13px;
+    padding-bottom: 0
+}
+
+.krajee-default .file-drag-handle, .krajee-default .file-upload-indicator {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding: 8px 8px 1px 3px;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 24px;
+    font-size: 12px
+}
+
+.krajee-default .file-actions, .krajee-default .file-other-error {
+    text-align: left
+}
+
+.krajee-default .file-footer-buttons {
+    float: right
+}
+
+.kv-file-content img {
+    width: 160px;
+    height: 150px
+}
+
+.kv-file-drop-zone {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: Arial, sans-serif;
+    font-size: 118px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0
+}
+
+.kv-file-drop-zone-one-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: Arial, sans-serif;
+    font-size: 118px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0
+}
+
+.page-heading {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 230px;
+    z-index: 11
+}
+
+.page-heading {
+    border-bottom: 1px solid #dddee0;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 13px;
+    -webkit-transition: -webkit-transform 200ms ease;
+    transition: transform 200ms ease;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .5)
+}
+
+.page-heading h2 {
+    font-size: 20px
+}
+
+.page-heading h2 {
+    margin: 0;
+    color: #353f49
+}
+
+@media (max-width: 767px) {
+    .page-heading {
+        left: 0;
+        margin-top: 100px;
+        padding-left: 52px
+    }
+}
+
+@media (min-width: 768px) {
+    .header__main {
+        width: 80%
+    }
+
+    .header__main {
+        flex: 1 0 0;
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0;
+        order: 1;
+        overflow: hidden;
+        padding: 0;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        z-index: 2
+    }
+}
+
+.header__main .breadcrumb {
+    padding: 8px 6px
+}
+
+.breadcrumb {
+    color: #999
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 18px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px
+}
+
+.header-right {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    font-size: 14px
+}
+
+.form-group label {
+    font-weight: 600 !important
+}
+
+.table th {
+    font-weight: 600 !important
+}
+
+.popover-content {
+    padding: 4px 5px !important
+}
+
+.popover-content .btn {
+    padding: 3px 8px
+}
+
+a, li:focus {
+    box-shadow: none !important
+}
+
+.inline-edit-legend {
+    font-size: unset;
+    border-bottom: none;
+    padding-left: 0 !important
+}
+
+fieldset input, span, textarea {
+    font-weight: 400
+}
+
+fieldset .title {
+    font-weight: 500;
+    width: 100% !important;
+    font-size: 12px
+}
+
+.input-text-wrap {
+    margin-left: 0 !important
+}
+
+.input-text-wrap input {
+    height: 30px
+}
+
+fieldset {
+    padding: 0 10px;
+    float: left
+}
+
+.inline-edit-row fieldset label textarea {
+    height: auto
+}
+
+.inline-edit-save button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+.sidebar-menu span {
+    font-size: 14px
+}
+
+.inline-edit-group label {
+    margin-right: 15px !important
+}
+
+table.widefat {
+    border: 0 solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04)
+}
+
+.button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+.tablenav select {
+    padding: 5px
+}
+
+.tablenav .tablenav-pages a.btn {
+    display: inline-block;
+    min-width: 17px;
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    padding: 5px 10px;
+    height: 32px;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 400;
+    text-align: center
+}
+
+.view a {
+    color: #a00 !important
+}
+
+.wrap {
+    margin: 10px 5px 0 2px !important
+}
+
+#screen-meta-links {
+    margin: 0 5px 0 0 !important
+}
+
+#wpbody-content {
+    padding-bottom: 0 !important
+}
+
+.btn {
+    height: 32px !important
+}
+
+.ui-sortable-handle span {
+    font-weight: 600 !important;
+}

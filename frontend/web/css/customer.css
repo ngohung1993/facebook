@@ -1,0 +1,188 @@
+.modal-content {
+    border-radius: 5px;
+}
+
+.btn-radius {
+    border-radius: 25px;
+}
+
+.btn-with-92 {
+    width: 92px;
+}
+
+.click-here button {
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.box-welcome {
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.box-list-group {
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 2.5rem;
+}
+
+.box-header {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.loading-search {
+    text-align: center;
+    display: none;
+}
+
+.loading-search img {
+    width: 50px;
+}
+
+.table.dataTable.no-footer {
+    border-bottom: none;
+}
+
+.table-responsive thead {
+    background: #fff;
+}
+
+td {
+    line-height: 3.5 !important;
+    text-align: left;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 5px 10px !important;
+}
+
+.img-circle {
+    height: 40px;
+    width: 40px;
+}
+
+.alert {
+    padding: 10px 35px 10px 15px;
+}
+
+.panel-body {
+    background: #fff;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    text-align: center;
+}
+
+.panel-title {
+    text-transform: uppercase;
+}
+
+#result-msg {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    display: none;
+    font-size: 16px;
+}
+
+#result-msg img {
+    width: 30px;
+    height: 30px;
+}
+
+.box-filter, .box-header, .box-table {
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.title-header {
+    overflow: hidden;
+    padding: 10px 0 20px;
+}
+
+.title-header .title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 9px;
+}
+
+.title-header .setting {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.title-header .setting > div {
+    margin-right: 7px;
+}
+
+.title-header .setting > div:last-child {
+    margin-right: 0;
+}
+
+.title-header .setting > div button, #filter, .box-header button {
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.title-filter {
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.dataTables_filter {
+    color: #757575 !important;
+    font-size: 13px;
+}
+
+input, select, button, .alert {
+    border-radius: 5px !important;
+}
+
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom: none;
+}
+
+section header .title {
+    text-transform: none;
+}
+
+.modal-body {
+    padding: 30px 15px;
+}
+
+.emotion {
+    width: 50px;
+    height: 50px;
+}
+
+.dataTables_wrapper thead th {
+    text-align: left !important;
+}
+
+.yii-debug-toolbar__bar {
+    display: none;
+}

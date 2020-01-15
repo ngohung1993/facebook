@@ -1,0 +1,266 @@
+.host_plans .margin_top3 {
+    font-size: 18px;
+    margin: 10px !important;
+}
+
+.ul-footer li {
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    font-style: italic;
+    padding: 3px 0;
+    margin-bottom: 2px;
+    float: left
+}
+
+.ul-footer li a {
+    color: #fff
+}
+
+.host_plans {
+    text-align: center
+}
+
+.caps {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    text-transform: uppercase
+}
+
+.caps strong {
+    display: block;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase
+}
+
+.caps em {
+    color: #999;
+    display: block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 3px;
+    text-transform: none;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
+.margin_top3 {
+    float: left;
+    margin-top: 30px;
+    width: 100%
+}
+
+.onecol_sixty_less {
+    float: left;
+    margin-right: 2%;
+    position: relative
+}
+
+.onecol_sixty_less {
+    width: 23.5%;
+    margin-right: 1.2%;
+}
+
+.onecol_sixty_less .caps strong {
+    font-size: 30px
+}
+
+.host_plans .planbox {
+    border: 2px solid #176aad;
+    border-radius: 0;
+    background: #fff;
+    float: left;
+    width: 100%;
+    transition: all .3s ease
+}
+
+.host_plans .planbox:hover {
+    border: 2px solid #e60f1e;
+    border-radius: 0;
+    background: #fff;
+    float: left;
+    width: 104%;
+    margin-left: -2%;
+    margin-top: -2%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important
+}
+
+.host_plans .planbox {
+    overflow-x: hidden
+}
+
+.host_plans .planbox .title {
+    float: left;
+    padding: 20px 0 10px;
+    width: 100%
+}
+
+.host_plans .planbox .title h4 {
+    font-size: 18px !important;
+    font-style: normal;
+    line-height: 25px;
+    margin-bottom: 10px;
+    float: none
+}
+
+.host_plans .planbox .prices {
+    background: #e60f1e none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 8px 0 23px;
+    position: relative;
+    width: 100%
+}
+
+.host_plans .planbox:hover .prices {
+    background: #f6911d none repeat scroll 0 0
+}
+
+.host_plans .planbox .prices::before {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 21px solid #e60f1e;
+    bottom: -20px;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -200px;
+    margin-right: -200px;
+    position: absolute;
+    width: 0
+}
+
+.host_plans .planbox:hover .prices::before {
+    border-top: 21px solid #f6911d
+}
+
+.host_plans .planbox .prices strong {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: 800
+}
+
+.host_plans .planbox .prices strong i {
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400
+}
+
+.host_plans .planbox .prices b {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 20px
+}
+
+.host_plans .planbox .prices b em {
+    font-style: normal;
+    text-decoration: line-through
+}
+
+.host_plans .planbox .prices a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #5f686f;
+    font-size: 14px;
+    padding: 8px 32px;
+    text-transform: uppercase;
+    transition: all .3s ease 0s
+}
+
+.host_plans .planbox ul {
+    float: left;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 100%
+}
+
+.host_plans .planbox li {
+    border-bottom: 1px solid #f3f3f3;
+    color: #2a363f;
+    float: left;
+    list-style: outside none none;
+    padding: 9px 0 9px 20px;
+    text-align: left;
+    font-size: 100%;
+    width: 100%
+}
+
+.host_plans .planbox.highlight .hiimg {
+    display: block;
+    left: 50%;
+    margin-left: -67px;
+    position: absolute;
+    top: -22px
+}
+
+@media only screen and (max-width: 600px) {
+    .onecol_sixty_less {
+        width: 92% !important;
+        margin-left: 14px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .onecol_sixty_less {
+        width: 23.4%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .onecol_sixty_less {
+        width: 23.2%;
+    }
+}
+
+.price_des li div:first-child {
+    width: 55%;
+    float: left;
+}
+
+.price_des li div:nth-child(2) {
+    float: left;
+}
+
+.price_des li div:nth-child(2) .fa-check {
+    color: green;
+}
+
+.price_des li div:nth-child(2) .fa-close {
+    color: #e60f1e;
+}
+
+#content_main {
+    position: relative;
+    z-index: 9;
+}
+
+.headfull {
+    background: rgba(0, 0, 0, 0.5) url(/uploads/core/images/bg-about-us-banner.jpg) no-repeat scroll center top;
+    padding: 95px 0;
+    background-size: cover !important;
+    text-align: center;
+    color: #FFF;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: block;
+}
+
+.headfull h3, .headfull h4 {
+    color: #FFF;
+}
+
+.headfull h3, .headfull h4 {
+    color: #FFF;
+}

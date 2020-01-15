@@ -1,0 +1,102 @@
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.slide-partner {
+    margin: 0;
+    background: #f2f2f2;
+}
+
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.jssorb101 .i {
+    position: absolute;
+    cursor: pointer
+}
+
+.jssorb101 .i .ci {
+    fill: #000
+}
+
+.jssorb101 .i .co {
+    fill: #fff;
+    opacity: .3
+}
+
+.jssorb101 .i:hover .co {
+    fill: #f93;
+    opacity: 1
+}
+
+.jssorb101 .i:hover .ci {
+    fill: #fff
+}
+
+.jssorb101 .iav .ci {
+    fill: #fff;
+    stroke-width: 0
+}
+
+.jssorb101 .iav .co {
+    fill: #46d1d3;
+    opacity: 1
+}
+
+.jssorb101 .i.idn {
+    opacity: .3
+}
+
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 10
+}
+
+.jssora051:hover {
+    opacity: .8
+}
+
+.jssora051.jssora051dn {
+    opacity: .5
+}
+
+.jssora051.jssora051ds {
+    opacity: .3;
+    pointer-events: none
+}
+
+.span-arrow {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .company, .baogia, .download {
+        height: 25px;
+        margin: 5px 0 10px 0;
+        text-align: center;
+        background-size: auto 100% !important;
+    }
+}
